@@ -1,4 +1,4 @@
-const apiKey = '409573755cbdcc87cb634eb14eaa9753';  // Replace with your OpenWeatherMap API key
+const apiKey = 'API_KEY';  // Replace with your OpenWeatherMap API key
 const searchBtn = document.getElementById('search-btn');
 const cityInput = document.getElementById('city-input');
 const cityName = document.getElementById('city-name');
@@ -60,3 +60,4 @@ cityInput.addEventListener('keypress', (e) => {
     searchBtn.click();
   }
 });
+
